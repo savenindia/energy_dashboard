@@ -1,14 +1,14 @@
 {
+  "homepage": "https://savenindia.github.io/energy_dashboard",
   "name": "material-kit-react",
   "version": "3.0.0",
-  "author": "Devias",
-  "licence": "MIT",
-  "homepage": "https://devias.io",
-  "private": false,
+  "private": true,
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "export": "next export",
     "lint": "next lint",
     "lint-fix": "next lint --fix"
