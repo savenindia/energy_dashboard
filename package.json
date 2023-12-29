@@ -1,8 +1,8 @@
 {
   "homepage": "https://savenindia.github.io/energy_dashboard",
-  "name": "material-kit-react",
+  "name": "energy",
   "version": "3.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next",
     "build": "next build",
